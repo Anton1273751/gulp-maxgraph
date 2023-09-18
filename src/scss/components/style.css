@@ -103,4 +103,8 @@ label {
 
 legend {
   display: block;
+}
+
+.header__text {
+  color: rgb(160, 125, 125);
 }/*# sourceMappingURL=style.css.map */

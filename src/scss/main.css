@@ -130,4 +130,8 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.header__text {
+  color: rgb(160, 125, 125);
 }/*# sourceMappingURL=main.css.map */
