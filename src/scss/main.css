@@ -1,8 +1,12 @@
 :root {
   --font-family: "Nunito", sans-serif;
   --content-width: 1060px;
+  --container-fluid-width: 1280px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(
+    var(--content-fluid-width) + (var(--container-offset) * 2)
+  );
   --light-color: #fff;
   --Orange-dark: #d15700;
   --Orange-light: #fff0e6;
@@ -72,7 +76,7 @@ img {
   height: auto;
   max-width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -103,15 +107,12 @@ a {
 .input-reset {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+       appearance: none;
   border: none;
   border-radius: 0;
   background-color: #fff;
 }
-.input-reset::-webkit-search-decoration,
-.input-reset::-webkit-search-cancel-button,
-.input-reset::-webkit-search-results-button,
-.input-reset::-webkit-search-results-decoration {
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -130,6 +131,12 @@ a {
   margin: 0 auto;
   padding: 0 var(--container-offset);
   max-width: var(--container-width);
+}
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-fluid-width);
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -153,3 +160,62 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.header__wrap {
+  padding: 25px 0;
+}
+.header__first-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__second-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+.logo__text {
+  margin-top: 7px;
+}
+.logo__name {
+  margin-left: 14px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.contacts__phone {
+  margin: 0;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.contacts__text {
+  color: #999;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav {
+  display: flex;
+  gap: 23px;
+  padding: 45px 8px 0 0;
+}
+.nav__link {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav__link:hover {
+  color: var(--Orange-corporate);
+}/*# sourceMappingURL=main.css.map */
