@@ -17,7 +17,12 @@
   display: flex;
   gap: 22px;
   &__img {
-    
+    object-fit: cover;
+    object-position: center;
+    background: lightgrey;
+  }
+  &__text-wrap {
+    align-items: center;
   }
   &__text {
     margin: 0;
