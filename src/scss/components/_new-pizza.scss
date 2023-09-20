@@ -3,8 +3,35 @@
   &__text {
     @include bold-text;
   }
-  &__card {
+
+  &__card-wrap {
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
+  }
+}
+.card {
+  max-width: 250px;
+  max-height: 104px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 22px;
+  &__img {
+    
+  }
+  &__text {
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  &__price {
+    margin-top: 4px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
   }
 }

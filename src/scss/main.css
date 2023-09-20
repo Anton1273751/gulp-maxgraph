@@ -49,15 +49,6 @@
   font-display: swap;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/../fonts/NunitoBold.woff2") format("woff2");
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -85,7 +76,7 @@ img {
   height: auto;
   max-width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 a {
@@ -116,15 +107,12 @@ a {
 .input-reset {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
+       appearance: none;
   border: none;
   border-radius: 0;
   background-color: #fff;
 }
-.input-reset::-webkit-search-decoration,
-.input-reset::-webkit-search-cancel-button,
-.input-reset::-webkit-search-results-button,
-.input-reset::-webkit-search-results-decoration {
+.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -186,6 +174,20 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.header__btn {
+  width: 104px;
+  height: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: var(--Orange-corporate);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
 
 .logo {
   display: flex;
@@ -230,4 +232,44 @@ a {
 }
 .nav__link:hover {
   color: var(--Orange-corporate);
-} /*# sourceMappingURL=main.css.map */
+}
+
+.popular {
+  padding: 70px 0;
+}
+.popular__text {
+  color: #000;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.popular__card-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 250px;
+  max-height: 104px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 22px;
+}
+.card__text {
+  margin: 0;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card__price {
+  margin-top: 4px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=main.css.map */
