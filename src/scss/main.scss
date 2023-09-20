@@ -3,11 +3,11 @@
 @import "mixins";
 @import "fonts";
 @import "settings";
+@import "./layout/grid";
+@import "./blocks/btn";
 
 // подключения компонентов страницы
 @import "./components/header";
 @import "./components/new-pizza";
 @import "./components/pizza";
-
-
-
+@import "./blocks/article";
