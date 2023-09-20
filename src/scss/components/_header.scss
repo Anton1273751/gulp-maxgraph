@@ -8,14 +8,15 @@
     justify-content: space-between;
   }
   &__second-inner {
-    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 31px;
   }
   &__btn {
     width: 104px;
     height: 40px;
-    margin-top: 30px;
+    border: 0;
     cursor: pointer;
     flex-shrink: 0;
     border-radius: 1000px;
@@ -64,7 +65,7 @@
 .nav {
   display: flex;
   gap: 23px;
-  padding: 45px 8px 0 0;
+
   &__link {
     color: #000;
     font-size: 14px;
