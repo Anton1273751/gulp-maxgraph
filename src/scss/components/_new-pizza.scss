@@ -16,13 +16,20 @@
   padding: 14px 18px;
   display: flex;
   gap: 22px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 25px 0px rgba(6, 5, 50, 0.05);
+
+  cursor: pointer;
   &__img {
+    max-width: 76px;
     object-fit: cover;
     object-position: center;
-    background: lightgrey;
   }
   &__text-wrap {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   &__text {
     margin: 0;
