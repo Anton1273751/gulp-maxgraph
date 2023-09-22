@@ -3,4 +3,7 @@
   &__title {
     @include bold-text;
   }
+  &__grid {
+    margin-top: 40px;
+  }
 }

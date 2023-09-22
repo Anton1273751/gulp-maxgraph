@@ -33,6 +33,9 @@
     line-height: normal;
     margin-top: 10px;
     flex-grow: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
   }
   &__footer {
     display: flex;
