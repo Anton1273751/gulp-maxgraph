@@ -6,3 +6,11 @@
   font-weight: 700;
   line-height: normal;
 }
+@mixin accent-title {
+  color: #000;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

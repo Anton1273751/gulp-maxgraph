@@ -5,6 +5,8 @@
 @import "settings";
 @import "./layout/grid";
 @import "./blocks/btn";
+@import "./blocks/snacks-arcticle";
+@import "./blocks/dessert-article";
 
 // подключения компонентов страницы
 @import "./components/header";
@@ -12,3 +14,5 @@
 @import "./components/pizza";
 @import "./blocks/article";
 @import "./components/combo";
+@import "./components/snacks";
+@import "./components/dessert";

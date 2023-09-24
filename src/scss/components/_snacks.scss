@@ -1,9 +1,9 @@
-.pizza {
+.snacks {
   padding: 70px 0;
-  &__title {
-    @include accent-title;
-  }
   &__grid {
     margin-top: 40px;
+  }
+  &__title {
+    @include accent-title;
   }
 }

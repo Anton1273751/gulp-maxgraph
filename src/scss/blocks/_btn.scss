@@ -12,13 +12,5 @@
   cursor: pointer;
   border: 0;
 
-  &::before {
-    content: attr(text);
-  }
-  &:hover::before {
-    content: attr(hover-text);
-    background: #d15700;
-    background-size: contain;
-    color: white;
-  }
+ 
 }

@@ -1,7 +1,7 @@
 .popular {
   padding: 70px 0;
   &__text {
-    @include bold-text;
+    @include accent-title;
   }
 
   &__card-wrap {

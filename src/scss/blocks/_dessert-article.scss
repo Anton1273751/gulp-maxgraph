@@ -1,9 +1,9 @@
-.article {
+.dessert-article {
   max-width: 250px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  height: 370px;
+  height: 406px;
   &__img {
     object-fit: cover;
     object-position: center;
@@ -48,7 +48,7 @@
     line-height: normal;
   }
   &__btn:hover {
-    background:  #F96900;
+    background: var(--Orange-corporate);
     color: white;
   }
 }
