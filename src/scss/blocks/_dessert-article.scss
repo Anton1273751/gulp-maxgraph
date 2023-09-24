@@ -24,7 +24,7 @@
     margin-top: 5px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
+    
   }
   &__text {
     display: flex;
@@ -39,7 +39,7 @@
   }
   &__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   &__price {

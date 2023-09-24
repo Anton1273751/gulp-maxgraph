@@ -1,5 +1,5 @@
-.beverages-article{
-     max-width: 250px;
+.beverages-article {
+  max-width: 250px;
   min-width: 250px;
   display: flex;
   flex-direction: column;
@@ -24,10 +24,11 @@
     margin-top: 5px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
   }
   &__text {
     display: flex;
+    padding-right: 15px;
     color: #73798c;
     font-size: 14px;
     font-weight: 400;
@@ -39,6 +40,7 @@
   }
   &__footer {
     display: flex;
+    padding-right: 20px;
     justify-content: space-between;
     align-items: center;
   }
@@ -53,4 +55,3 @@
     color: white;
   }
 }
-
