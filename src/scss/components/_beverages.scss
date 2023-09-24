@@ -1,0 +1,9 @@
+.beverages {
+  padding: 70px 134px 0 0;
+  &__grid {
+    margin-top: 40px;
+  }
+  &__title {
+    @include accent-title;
+  }
+}
