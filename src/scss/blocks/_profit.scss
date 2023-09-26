@@ -1,6 +1,6 @@
 .profit {
   padding: 93px 0 43px 0;
-
+  position: relative;
   display: flex;
   gap: 156px;
   &__article {
@@ -24,10 +24,13 @@
     opacity: 0.7;
   }
   &::after {
+    content: "";
+    display: block;
     width: 1060px;
     height: 1px;
-    
+    position: absolute;
+    opacity: 0.2;
     background: #fff;
-    margin-top: 40px;
+    top:210px;
   }
 }
