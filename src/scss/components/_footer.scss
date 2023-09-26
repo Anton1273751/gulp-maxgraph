@@ -1,4 +1,22 @@
 .footer {
-  margin-top: 134px;
-  
+  padding: 50px 40px;
+  width: 100%;
+  min-height: 569px;
+  background: #464c55;
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__article {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+  }
 }
