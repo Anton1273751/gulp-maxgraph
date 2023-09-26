@@ -1,0 +1,33 @@
+.profit {
+  padding: 93px 0 43px 0;
+
+  display: flex;
+  gap: 156px;
+  &__article {
+    max-width: 299px;
+    max-height: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__title {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px; /* 100% */
+  }
+  &__text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    opacity: 0.7;
+  }
+  &::after {
+    width: 1060px;
+    height: 1px;
+    
+    background: #fff;
+    margin-top: 40px;
+  }
+}
