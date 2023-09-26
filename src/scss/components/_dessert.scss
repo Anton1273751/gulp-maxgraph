@@ -1,14 +1,9 @@
 .dessert {
   padding: 70px 0;
-  &__grid{
+  &__grid {
     margin-top: 40px;
   }
   &__title {
-    color: #000;
-    font-family: Nunito;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    @include accent-title;
   }
 }
