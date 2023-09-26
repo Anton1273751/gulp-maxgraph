@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  cursor: pointer;
+
+  &__text {
+    margin-top: 7px;
+  }
+  &__name {
+    margin-left: 14px;
+  }
+}

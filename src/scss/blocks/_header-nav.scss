@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 23px;
+
+  &__link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+      color: var(--Orange-corporate);
+    }
+  }
+}
