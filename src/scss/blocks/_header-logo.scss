@@ -12,4 +12,8 @@
   &__name {
     margin-left: 14px;
   }
+  &__img {
+    object-fit: cover;
+    object-position: center;
+  }
 }
