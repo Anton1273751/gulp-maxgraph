@@ -19,3 +19,8 @@
     cursor: pointer;
   }
 }
+@media (max-width: 645px) {
+  .contacts {
+    display: none;
+  }
+}

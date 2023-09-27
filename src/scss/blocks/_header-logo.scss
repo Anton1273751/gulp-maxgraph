@@ -17,3 +17,10 @@
     object-position: center;
   }
 }
+@media(max-width:515px){
+  .logo{
+    &__text{
+      display: none;
+    }
+  }
+}

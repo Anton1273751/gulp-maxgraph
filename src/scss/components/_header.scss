@@ -29,6 +29,13 @@
     line-height: normal;
   }
 }
-
-
-
+@media (max-width: 645px) {
+  .header {
+    &__wrap {
+      
+    }
+    &__btn {
+      display: none;
+    }
+  }
+}
