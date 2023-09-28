@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru" class="page">
-  @include('partials/head.html') @include('partials/header.html')
+  @include('partials/head.html') 
   <body>
     <main>
+      @include('partials/header.html')
       <section class="scroll">
         <div class="container">
           <img src="../img/slider/slide-central.webp" alt="#" />
         </div>
       </section>
       @include('partials/new_pizza.html') 
+      @include('partials/block/nav-mobile.html')
       @include('partials/pizza.html')
       @include('partials/combo.html')
       @include('partials/snacks.html')

@@ -1,0 +1,30 @@
+.mobile {
+  display: flex;
+  gap: 23px;
+  display: none;
+
+  &__link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+      color: var(--accent-collor);
+    }
+  }
+}
+@media (max-width: 515px) {
+  .mobile {
+    display: flex;
+    overflow: scroll;
+    &__link {
+      display: inline-flex;
+      padding: 6px 15px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 100px;
+    }
+  }
+}
