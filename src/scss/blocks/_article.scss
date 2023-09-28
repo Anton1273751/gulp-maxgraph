@@ -61,8 +61,20 @@
     background: var(--accent-collor);
     color: white;
   }
-  // &__btn:hover {
-  //   background: var(--accent-collor);
-  //   color: white;
-  // }
 }
+// @media (max-width: 515px) {
+//   .article {
+//     max-width: 288px;
+//     min-width: 288px;
+//     height: 149px;
+    
+//     &__img {
+//       max-width: 115px;
+//       min-width: 115px;
+//       height: 115px;
+//       &-wrap{
+//         padding: 16px 0;
+//       }
+//     }
+//   }
+// }

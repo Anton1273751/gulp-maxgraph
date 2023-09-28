@@ -62,3 +62,13 @@
   }
  
 }
+@media(max-width:515px){
+  .footer{
+    &__info{
+      flex-direction: column;
+    }
+    &__article{
+      align-items: start;
+    }
+  }
+}

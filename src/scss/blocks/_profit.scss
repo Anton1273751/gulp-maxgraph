@@ -14,13 +14,13 @@
     color: #fff;
     font-size: 26px;
     font-weight: 600;
-    line-height: 26px; /* 100% */
+    line-height: 26px; 
   }
   &__text {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    line-height: 22px; /* 137.5% */
+    line-height: 22px; 
     opacity: 0.7;
   }
   &::after {
@@ -32,5 +32,10 @@
     opacity: 0.2;
     background: #fff;
     top:210px;
+  }
+}
+@media (max-width:515px){
+  .profit{
+    flex-direction: column;
   }
 }
