@@ -10,6 +10,21 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 1000px) {
+  .popular {
+    padding: 20px 0 30px 0;
+
+    &__text {
+      font-size: 20px;
+    }
+    &__card-wrap {
+      margin-top: 10px;
+      overflow: scroll;
+    }
+  }
+}
+
 @media (max-width: 515px) {
   .popular {
     padding: 20px 0 30px 0;
