@@ -111,9 +111,11 @@
     &__article {
       align-items: start;
     }
+    &__text{
+      display: none;
+    }
     &__phone {
-      display: flex;
-      justify-content: start;
+      display: none;
     }
   }
 }
