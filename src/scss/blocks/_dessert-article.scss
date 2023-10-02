@@ -49,6 +49,9 @@
     font-weight: 600;
     line-height: normal;
   }
+  &__btn::before {
+    content: attr(text);
+  }
   &__btn:hover {
     background: var(--accent-collor);
     color: white;
