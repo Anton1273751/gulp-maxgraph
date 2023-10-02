@@ -40,7 +40,7 @@
 }
 @media(max-width:515px) {
 .network{
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: start;
   &__info{
     flex-direction: column;
