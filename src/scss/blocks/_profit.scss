@@ -24,8 +24,15 @@
     opacity: 0.7;
   }
 }
+
+@media (max-width: 768px) {
+  .profit {
+    padding: 40px 0;
+  }
+}
 @media (max-width: 588px) {
   .profit {
+    padding: 40px 0;
     flex-direction: column;
     gap: 30px;
   }
@@ -36,4 +43,3 @@
     display: none;
   }
 }
-
