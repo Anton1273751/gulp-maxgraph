@@ -83,11 +83,12 @@
     &__text-wrap {
       margin-left: 7px;
       gap: 5px;
-      align-items: end;
+      align-items: start;
     }
     &__title {
       font-size: 18px;
       line-height: 20px;
+      
     }
     &__text {
       font-size: 12px;

@@ -110,14 +110,23 @@
     }
     &__article {
       align-items: start;
+      &-info {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+      }
     }
-    &__text{
+    &__link{
+      display: flex;
+      
+    }
+    &__text {
       display: none;
     }
     &__phone {
       display: none;
     }
-    &__mail{
+    &__mail {
       margin-top: 0px;
     }
   }
